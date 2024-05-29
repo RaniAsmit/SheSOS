@@ -1,6 +1,12 @@
-# womenapp
+# Women_Safety_App
 
-A new Flutter project.
+Introduction
+The Women Safety App is a mobile application designed to provide immediate assistance to women in emergency situations. With just one tap, users can quickly access essential emergency services such as police, women helpline, ambulance, and fire brigade. Additionally, the app offers features to locate nearby hospitals, police stations, and medical stores. Furthermore, users can share their current location with trusted contacts for added security.
+
+Features
+One-Tap Emergency Assistance: Quickly call police, women helpline, ambulance, and fire brigade with a single tap.
+Nearby Services: Find nearby hospitals, police stations, and medical stores for immediate assistance.
+Location Sharing: Share your current location with trusted contacts for added safety.
 
 ## Getting Started
 
