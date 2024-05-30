@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:womenapp/widgets/home_widgets/emergencies.dart/ambulanceemergency.dart';
 import 'package:womenapp/widgets/home_widgets/emergencies.dart/firebrigadeemergency.dart';
 import 'package:womenapp/widgets/home_widgets/emergencies.dart/policeemergency.dart';
+import 'package:womenapp/widgets/home_widgets/emergencies.dart/womenemergency.dart';
 // import 'package:womenapp/widgets/home_widgets/emergencies/policeemergency.dart';
 
 class Emergency extends StatelessWidget {
@@ -16,6 +17,7 @@ class Emergency extends StatelessWidget {
         physics: BouncingScrollPhysics(),
         scrollDirection: Axis.horizontal,
         children: [
+          WomenEmergency(),
           PoliceEmergency(),
           AmbulanceEmergency(),
           FireBrigadeEmergency(),
