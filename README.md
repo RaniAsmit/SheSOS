@@ -16,6 +16,8 @@ Location Sharing: Share your current location with trusted contacts for added sa
 
 
 
+![Screenshot_1717075178](https://github.com/RaniAsmit/Safety_App/assets/114328293/64c1363b-f76f-4ca8-9a97-dded77029ce5)
+![Screenshot_1717075294](https://github.com/RaniAsmit/Safety_App/assets/114328293/14c931c1-83d9-47bc-87ab-a0e0ecc55cb9)
 
 ## Getting Started
 
