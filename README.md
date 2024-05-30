@@ -7,6 +7,16 @@ One-Tap Emergency Assistance: Quickly call police, women helpline, ambulance, an
 Nearby Services: Find nearby hospitals, police stations, and medical stores for immediate assistance.
 Location Sharing: Share your current location with trusted contacts for added safety.
 
+
+
+
+
+![Screenshot_1717075074](https://github.com/RaniAsmit/Safety_App/assets/114328293/07d628d9-879a-42dd-9260-b3c534686e3d)
+
+
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
