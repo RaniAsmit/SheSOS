@@ -1,6 +1,5 @@
 # Women_Safety_App
 
-Introduction
 The Women Safety App is a mobile application designed to provide immediate assistance to women in emergency situations. With just one tap, users can quickly access essential emergency services such as police, women helpline, ambulance, and fire brigade. Additionally, the app offers features to locate nearby hospitals, police stations, and medical stores. Furthermore, users can share their current location with trusted contacts for added security.
 
 Features
