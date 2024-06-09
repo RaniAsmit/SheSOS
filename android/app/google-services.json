@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1024061657540",
+    "project_id": "shesos-f6da2",
+    "storage_bucket": "shesos-f6da2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024061657540:android:477e3f56e95cba4edc5491",
+        "android_client_info": {
+          "package_name": "com.example.womenapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcCpo_yMc14OcUMREVpowmsUCGCl8RddQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

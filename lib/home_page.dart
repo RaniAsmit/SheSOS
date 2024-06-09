@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
   getRandomQuote() {
     Random random = Random();
     setState(() {
-      qIndex = random.nextInt(5);
+      qIndex = random.nextInt(6);
     });
   }
 
@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   LifeSafe(),
-                  SafeHome(),
+                  // SafeHome(),
                 ],
               ),
             ),
