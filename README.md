@@ -9,7 +9,7 @@ Location Sharing: Share your current location with trusted contacts for added sa
 ## Screenshots
 
 <div style="display: flex;">
-    ![Screenshot_1718005535](https://github.com/RaniAsmit/Safety_App/assets/114328293/7116802e-7abf-4daf-9e68-6f594e3c94be)
+    <img src="https://github.com/RaniAsmit/Safety_App/assets/114328293/7116802e-7abf-4daf-9e68-6f594e3c94be" alt="Screenshot 1" width="200"/>
     <img src="https://github.com/RaniAsmit/Safety_App/assets/114328293/64c1363b-f76f-4ca8-9a97-dded77029ce5" alt="Screenshot 2" width="200" />
     <img src="https://github.com/RaniAsmit/Safety_App/assets/114328293/14c931c1-83d9-47bc-87ab-a0e0ecc55cb9" alt="Screenshot 3" width="200" />
 
