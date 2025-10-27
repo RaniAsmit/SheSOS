@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class FireBrigadeEmergency extends StatelessWidget {
   _callNumber(String number) async {
-    //set the number here
-    await FlutterPhoneDirectCaller.callNumber(number);
+    try {
+      await FlutterPhoneDirectCaller.callNumber(number);
+    } catch (e) {
+      debugPrint('Error making phone call: $e');
+    }
   }
 
   @override

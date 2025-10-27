@@ -3,6 +3,9 @@
     <!-- Add internet permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     
+    <!-- Add phone call permission -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    
     <!-- Add contacts permission -->
     <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
 

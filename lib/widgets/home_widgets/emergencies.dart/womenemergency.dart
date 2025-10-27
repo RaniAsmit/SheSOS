@@ -19,7 +19,10 @@ class WomenEmergency extends StatelessWidget {
         child: InkWell(
           onTap: () => _callNumber('1091'),
           child: Container(
-            height: 180,
+            constraints: BoxConstraints(
+              minHeight: 150,
+              maxHeight: 180,
+            ),
             width: MediaQuery.of(context).size.width * 0.7,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
@@ -45,14 +48,14 @@ class WomenEmergency extends StatelessWidget {
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
-                      fontSize: MediaQuery.of(context).size.width * 0.06,
+                      fontSize: 24,
                     ),
                   ),
                   Text(
                     'For help from women cell',
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: MediaQuery.of(context).size.width * 0.045,
+                      fontSize: 18,
                     ),
                   ),
                   Container(
@@ -67,8 +70,7 @@ class WomenEmergency extends StatelessWidget {
                           style: TextStyle(
                               color: Colors.red[300],
                               fontWeight: FontWeight.bold,
-                              fontSize:
-                                  MediaQuery.of(context).size.width * 0.055),
+                              fontSize: 20),
                         ),
                       ))
                 ],

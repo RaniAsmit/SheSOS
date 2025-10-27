@@ -1,9 +1,16 @@
 plugins {
-  // ...
+    // The Android Gradle plugin (required)
+   id 'com.android.application' version '8.3.0' apply false
+id 'com.android.library' version '8.3.0' apply false
 
-  // Add the dependency for the Google services Gradle plugin
-  id 'com.google.gms.google-services' version '4.4.2' apply false
+    // Kotlin plugin
+    id 'org.jetbrains.kotlin.android' version '1.9.0' apply false
 
+    // Google services (for Firebase or similar)
+    id 'com.google.gms.google-services' version '4.4.2' apply false
+
+    // Flutter plugin
+    id 'dev.flutter.flutter-gradle-plugin' version '1.0.0' apply false
 }
 
 allprojects {
@@ -14,12 +21,11 @@ allprojects {
 }
 
 rootProject.buildDir = "../build"
-subprojects {
-    project.buildDir = "${rootProject.buildDir}/${project.name}"
-}
-subprojects {
-    project.evaluationDependsOn(":app")
-}
+
+// subprojects {
+//     project.buildDir = "${rootProject.buildDir}/${project.name}"
+//     project.evaluationDependsOn(":app")
+// }
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir

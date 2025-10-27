@@ -47,5 +47,17 @@
 	<true/>
 	<key>io.flutter.embedded_views_preview</key>
     <string>YES</string>
+	<key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>tel</string>
+        <string>https</string>
+        <string>http</string>
+    </array>
+    <key>NSCameraUsageDescription</key>
+    <string>This app needs access to camera when used</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app needs access to microphone when used</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to photo library</string>
 </dict>
 </plist>

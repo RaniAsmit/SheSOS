@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:womenapp/widgets/home_widgets/custom_appBar.dart';
 import 'package:womenapp/widgets/home_widgets/custom.dart';
 import 'package:womenapp/widgets/home_widgets/emergency.dart';
-import 'package:womenapp/widgets/home_widgets/safehome/SafeHome.dart';
 import 'package:womenapp/widgets/lifesafe.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
   getRandomQuote() {
     Random random = Random();
     setState(() {
-      qIndex = random.nextInt(6);
+      qIndex = random.nextInt(5); // Changed from 6 to 5 to match list length
     });
   }
 
